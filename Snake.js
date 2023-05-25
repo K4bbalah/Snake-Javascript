@@ -11,7 +11,7 @@ snake[0] = {
     x: Math.floor(Math.random() * 750) ,
     y: Math.floor(Math.random() * 550)
 };
-// cria a maçã
+// cria a maçã.
 var food = {
     fx: Math.floor(Math.random() * 750) ,
     fy: Math.floor(Math.random() * 550)
