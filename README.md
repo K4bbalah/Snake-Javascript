@@ -1,4 +1,4 @@
-# Jogo Snake-Javascript
+# Snake-Javascript
 
 
 Simples jogo Snake >.< /* teclas de movimentação W,S,A,D E ENTER! 
