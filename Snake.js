@@ -154,3 +154,34 @@ window.onload  = ()=>{
 }
 
 // eventos de teclado
+window.addEventListener('keydown',(ev)=>{
+    switch (ev.keyCode){
+        case 87:
+            if(direc!= 'baixo'){
+                direc='cima';
+            }
+                break;
+        case 83:
+            if(direc != 'cima'){
+                direc='baixo';
+            }
+
+                break;
+        case 65:
+            if(direc != 'direita'){
+                direc='esquerda';
+            }
+                break;
+        case 68:
+            if(direc != 'esquerda'){
+                direc="direita";
+            }
+                break;
+        case 13:
+            if(fim){
+                document.location.reload(true);
+            }
+                break;
+    }
+})
+
